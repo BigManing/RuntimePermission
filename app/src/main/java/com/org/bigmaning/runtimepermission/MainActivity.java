@@ -38,9 +38,7 @@ public class MainActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             Log.i(TAG, "api>=23，需要动态申请权限");
 
-
             Log.i(TAG, "shouldShowRequestPermissionRationale: " + shouldShowRequestPermissionRationale(camera));
-
 
             if (checkSelfPermission(camera) != PackageManager.PERMISSION_GRANTED) {
                 Log.i(TAG, "相机功能没有被授权，开始申请权限");
