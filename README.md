@@ -20,3 +20,6 @@
  - 请求结果回调
  onRequestPermissionsResult(int requestCode, String[] permissions,int[] grantResults)
 
+
+
+[更多内容：http://blog.csdn.net/qq_27818541/article/details/70214566](http://blog.csdn.net/qq_27818541/article/details/70214566)
